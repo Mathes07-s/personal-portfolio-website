@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Matheswaran S</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Matheswaran<span>S</span></a>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link active">Projects</a></li>
+                    <li class="nav-item"><a href="resume.html" class="nav-link">Resume</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Projects Hero Section -->
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">My Projects</h1>
+                <p class="page-subtitle">Showcasing my work in web development and programming</p>
+            </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <section class="projects-section">
+            <div class="container">
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="ai">AI/ML</button>
+                    <button class="filter-btn" data-filter="python">Python</button>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="images/project1.jpg" alt="Smart Health Monitoring System">
+                            <div class="project-overlay">
+                                <a href="#" class="view-project">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Smart Health Monitoring System</h3>
+                            <p class="project-description">A web-based platform for tracking health metrics with data visualization and AI-powered insights for preventive healthcare.</p>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML/CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Machine Learning</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 2 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="images/project2.jpg" alt="E-Commerce Website">
+                            <div class="project-overlay">
+                                <a href="#" class="view-project">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Responsive E-Commerce Website</h3>
+                            <p class="project-description">A fully responsive e-commerce platform with product catalog, shopping cart, and user authentication system.</p>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Responsive Design</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 3 -->
+                    <article class="project-card" data-category="ai">
+                        <div class="project-image">
+                            <img src="images/project3.jpg" alt="Student Performance Predictor">
+                            <div class="project-overlay">
+                                <a href="#" class="view-project">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Student Performance Predictor</h3>
+                            <p class="project-description">An AI model that predicts student academic performance based on various factors to help educators provide targeted support.</p>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Scikit-learn</span>
+                                <span class="tech-tag">Pandas</span>
+                                <span class="tech-tag">Flask</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 4 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="images/project4.jpg" alt="Portfolio Website">
+                            <div class="project-overlay">
+                                <a href="#" class="view-project">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Personal Portfolio Website</h3>
+                            <p class="project-description">A responsive portfolio website showcasing projects, skills, and professional information with clean design and smooth animations.</p>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">Flexbox</span>
+                                <span class="tech-tag">Media Queries</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 5 -->
+                    <article class="project-card" data-category="python">
+                        <div class="project-image">
+                            <img src="images/project5.jpg" alt="Task Management App">
+                            <div class="project-overlay">
+                                <a href="#" class="view-project">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Task Management Application</h3>
+                            <p class="project-description">A console-based task management system with CRUD operations, priority sorting, and deadline tracking.</p>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">File Handling</span>
+                                <span class="tech-tag">OOP Concepts</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Matheswaran S</h3>
+                    <p>Front-End Developer & AI/ML Enthusiast</p>
+                    <p>BTech CSE (AIML) | Amet University</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> waranm886@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 97152 04421</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Matheswaran S. All Rights Reserved.</p>
+                <p>Squad #147 | Registration: ATML25069</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
